@@ -1,8 +1,10 @@
 print('Hello, world!')
 
 counts = 0
-for i in range(1,101):
+x = 0
+for i in range(1,50):
     counts += 1
-print(counts)
+    x += 2
+print(counts, x)
 
 print("Hi!")
